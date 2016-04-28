@@ -1,0 +1,18 @@
+
+# All container here have their networking setup on their host to simplify linking them together.
+
+openam:
+  build: openam-container-1
+  ports:
+    - "8080:8080"
+  extra_hosts:
+    - "sp.example.com:10.0.2.2"
+    - "idp.example.com:localhost"
+
+openam2:
+  build: openam-container-2
+  ports:
+    - "8081:8080"
+  extra_hosts:
+    - "sp.example.com:10.0.2.2"
+    - "idp.example.com:localhost"

@@ -1,0 +1,40 @@
+{
+  "name": "passport-saml-example",
+  "version": "0.0.1",
+  "description": "Example for PassportJS SAML strategy",
+  "author": {
+    "name": "Gerard Braad",
+    "email": "me@gbraad.nl",
+    "url": "http://gbraad.nl"
+  },
+  "keywords": [
+    "saml",
+    "sso"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbraad/passport-saml-example.git"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jade": "*",
+    "lodash": "^3.10.1",
+    "morgan": "^1.7.0",
+    "nodemon": "*",
+    "passport": "*",
+    "passport-saml": "*",
+    "passports": "^0.2.1",
+    "serve-static": "^1.10.2"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
